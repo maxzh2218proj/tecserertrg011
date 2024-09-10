@@ -1,0 +1,185 @@
+.bodyClient{
+    width: 170px;
+    font-size: 20px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+
+    
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+}
+
+.bodyClient:hover{
+             
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+     
+}
+
+.bodyClientButton{
+    font-size: 17px;
+    float: right;
+    width: 130px;
+    height: 30px;
+}
+
+.client{
+    padding-top: 15px;
+}
+
+         
+.addClient, .loginBtn{
+    background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 10px;
+  }
+
+  .addClient:hover, .loginBtn:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .addGood, .addMaterial, .addControl, .edit, .delete, .update, .control{
+    background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 10px;
+  }
+
+  .addGood:hover, .addMaterial:hover, .addControl:hover, .edit:hover, .delete:hover, .update:hover, .control:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+.createClientPage{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+input[name="name"]{
+    width: 200px;
+    height: 30px;
+}
+
+.bodyClientButton2{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.bodyClientButton2:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+}
+
+.productlink, .controllink{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 6px;
+}
+
+.productlink:hover, .controllink:hover, .typecontrol{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+}
+
+.Out{
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+
+    background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.Out:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+.nameHeader{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.listOfGoods{
+    margin-top: 20px;
+}
+
+
+.loginContainer{
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rightSide form{
+    text-align: center;
+}
+
+.ListCl{
+    background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 30px;
+  }
+
+  .ListCl:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .leftSide .client{
+    padding-top: 100px;
+  }
+
+  .leftSide .material{
+    padding-top: 100px;
+  }

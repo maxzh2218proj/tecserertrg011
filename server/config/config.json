@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "api_user",
+    "password": "32167a",
+    "database": "api_db",
+    "host": "192.168.168.206",
+    "dialect": "postgres"
+  }
+}
